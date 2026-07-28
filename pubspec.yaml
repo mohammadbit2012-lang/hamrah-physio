@@ -1,0 +1,62 @@
+name: hamrah_physio
+description: A professional Physiotherapy Clinic Management System (Hamrah Physio).
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Navigation
+  go_router: ^13.1.0
+  
+  # Local Storage & Utilities
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.3
+  logger: ^2.1.0
+  
+  # UI & Visuals
+  lucide_icons: ^0.320.0
+  google_fonts: ^6.1.0
+
+devDependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code Generation
+  riverpod_generator: ^2.3.9
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  
+  # Asset Declarations
+  assets:
+    - assets/translations/fa.json
+    - assets/translations/en.json
+    - assets/images/
+    - assets/icons/
+  
+  # Custom Vazirmatn Persian Typography
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/Vazirmatn-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Vazirmatn-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Vazirmatn-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Vazirmatn-Bold.ttf
+          weight: 700

@@ -1,0 +1,37 @@
+{
+  "app_name": "Hamrah Physio",
+  "login_title": "Login to Hamrah Physio",
+  "login_subtitle": "Physiotherapy Clinic Management System",
+  "username": "Username",
+  "password": "Password",
+  "sign_in": "Sign In",
+  "forgot_password": "Forgot Password?",
+  
+  "role_doctor": "Physiotherapist Specialist",
+  "role_secretary": "Clinic Receptionist / Secretary",
+  "role_operator": "Device Operator",
+  "role_patient": "Patient",
+  
+  "doctor_dashboard": "Doctor Dashboard",
+  "secretary_dashboard": "Secretary Desk",
+  "operator_dashboard": "Operator Terminal",
+  "patient_dashboard": "Patient Portal",
+  
+  "appointments": "Today's Appointments",
+  "add_appointment": "Schedule Appointment",
+  "patient_records": "Medical Charts",
+  "treatment_plans": "Physio Prescriptions",
+  "prescriptions": "Prescriptions",
+  
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "national_id": "National ID",
+  "phone_number": "Phone Number",
+  "gender": "Gender",
+  
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "logout": "Log Out"
+}

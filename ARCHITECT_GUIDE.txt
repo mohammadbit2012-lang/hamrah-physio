@@ -1,0 +1,19 @@
+=========================================
+HAMRAH PHYSIO - FLUTTER FOUNDATION SKELETON
+Clean Architecture - Material 3 - Riverpod - GoRouter - Persian RTL
+=========================================
+
+Congratulations! This project structure is configured by your Lead Flutter Developer.
+It contains:
+- Complete Persian localizations in assets/translations/fa.json
+- Professional RTL theme setup in lib/core/config/theme/
+- Multi-role shell routers configured in lib/core/config/router/app_router.dart
+- High-quality shared UI components in lib/shared/widgets/
+
+To run the app:
+1. Ensure Flutter is installed on your workstation (latest stable recommended)
+2. Run 'flutter pub get' in this root folder to download all required dependencies.
+3. Configure your assets path if custom assets are loaded.
+4. Run 'flutter run' to check the login placeholder.
+
+Crafted with extreme care.
